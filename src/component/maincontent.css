@@ -43,6 +43,7 @@
 
 .buttons_container {
   display: flex;
+  margin-top: 20px;
   align-items: center;
   margin-left: 20px;
   padding: 6px;
