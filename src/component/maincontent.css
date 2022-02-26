@@ -1,0 +1,118 @@
+.container {
+  width: 75vw;
+  background-color: white;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  min-height: 100vh;
+}
+
+
+.filter_options_container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+  align-self: center;
+}
+
+.results_header {
+  display: flex;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+}
+.result_header_text {
+  flex: 25%;
+}
+
+.timeline_filter_container_text {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.filter_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons_container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  padding: 6px;
+}
+
+.filter_button,
+.clear_filter_button {
+  padding: 8px;
+  margin-right: 10px;
+  color: wheat;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.filter_button {
+  width: 105px;
+  height: 40px;
+  background-color: rgb(201, 48, 231);
+  font-weight: 700;
+}
+
+.clear_filter_button {
+  width: 105px;
+  height: 40px;
+  background-color: rgb(186, 17, 17);
+  font-weight: 700;
+}
+
+.filter_select {
+  background-color: white;
+  height: 35px;
+  border-radius: 6px;
+}
+
+.timeline_filter_container {
+  margin-right: 30px;
+}
+
+.date_input {
+  background-color: white;
+  height: 35px;
+  border-radius: 6px;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+
+.filter_header {
+  display: flex;
+  justify-content: center;
+}
+.filter_heading {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.holiday_wrapper {
+  display: flex;
+  padding: 10px;
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+
+.result_text_title {
+  flex: 33%;
+}
+.result_text_date {
+  flex: 33%;
+}
+.result_text_notes {
+  flex: 33%;
+}

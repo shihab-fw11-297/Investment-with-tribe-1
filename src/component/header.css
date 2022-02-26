@@ -1,0 +1,10 @@
+.header_container {
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+.header_logo_img {
+  height: 65px;
+}
