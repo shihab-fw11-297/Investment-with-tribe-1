@@ -178,7 +178,7 @@ const MainContent = () => {
       <div className="results_container">
         {holidays.map((item) => {
           return (
-            <div className="single_holiday" key={item.date}>
+            <div className="single_holiday" key={Math.random() * 10000}>
               <div className="holiday_wrapper">
                 <div className="result_text_title">{item.title}</div>
                 <div className="result_text_title">{item.country}</div>
