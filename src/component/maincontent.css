@@ -1,5 +1,5 @@
 .container {
-  width: 80vw;
+  width: 70vw;
   background-color: white;
   padding: 15px;
   margin: 0 auto;
@@ -31,8 +31,9 @@
 }
 
 .timeline_filter_container_text {
-  font-size: 18px;
+  font-size: 15px;
   margin-right: 10px;
+  font-weight: 700;
 }
 
 .filter_container {
